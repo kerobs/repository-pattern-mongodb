@@ -15,7 +15,7 @@ namespace Web.Persistence.Repositories
 {
     public class MongoRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        private static string _connectionString = "mongodb://kerobs:digital5418@ds261745.mlab.com:61745/kerobs_mdb";
+        private static string _connectionString = "mongodb://username:password@ds261745.mlab.com:53745/_mdb";
         //ConfigurationManager.ConnectionStrings["db"].ConnectionString;
        
 
